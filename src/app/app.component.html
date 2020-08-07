@@ -1,0 +1,47 @@
+<!-- <h1>welcome</h1> -->
+<!-- <favorite [is-Favorite] ="post.isFavorite" (change)="onFavoriteChange($event)"></favorite> -->
+<!-- <bootstrap-panel> 
+    <div class="heading">headdding</div>
+</bootstrap-panel>
+<app-like [isselected]="like.isselected" 
+[_likesCount]="like.likes" (change)="onclick($event)" ></app-like>
+<div *ngIf="courses.length>0; then courselist else nocourse"></div>
+<ng-template #courselist>
+    list of courses
+</ng-template>
+<ng-template #nocourse>
+    no courrse
+</ng-template>
+<ul>
+    <li class="btn"       [class.ative]="vm=='map'"><a (click)="vm='map'">map</a></li>
+    <li class="btn"  [class.ative]="vm=='list'"><a (click)="vm='list'">list</a></li>
+</ul>
+<div [ngSwitch]="vm">
+    <div *ngSwitchCase="'map'">map content</div>
+    
+    <div *ngSwitchCase="'list'">list content</div>
+</div>
+<a href="">dada</a><br>
+<button (click)="onadd()">add</button>
+
+<button (click)="onload()">load</button>
+<ul>
+    <li *ngFor="let a of courses;trackBy:trackCourse even as b">
+        {{a.name}}
+        <button (click)="onremove(a)"></button> <span *ngIf="b">even
+            
+        </span> 
+    </li>
+</ul>
+<input type="text" [appInputFormat]="'uppercase'"> -->
+ <!-- <contact-form></contact-form>
+ <zippy [title]="'shipping'">
+    shipping details
+</zippy> 
+<signup-form></signup-form> 
+<app-new-course-form></app-new-course-form>
+<posts></posts> -->
+<!-- <change-password></change-password>
+<github-followers></github-followers> -->
+<navbar></navbar>
+<router-outlet></router-outlet>
